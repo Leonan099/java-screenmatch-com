@@ -5,7 +5,7 @@ import com.theokanning.openai.service.OpenAiService;
 
 public class ConsultaChatGPT {
     public static String obterTraducao(String texto) {
-        OpenAiService service = new OpenAiService(System.getenv("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"));
+        OpenAiService service = new OpenAiService(System.getenv("CHAT-GPT-KEY"));
 
 
         CompletionRequest requisicao = CompletionRequest.builder()
